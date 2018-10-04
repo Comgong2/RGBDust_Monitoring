@@ -1,0 +1,10 @@
+.vs
+RGBDust_Monitoring/bin
+RGBDust_Monitoring/obj
+RGBDust_Monitoring/Properties
+RGBDust_Monitoring/App.config
+RGBDust_Monitoring/Form1.resx
+RGBDust_Monitoring/RGBDust_Monitoring.csproj
+RGBDust_icon.png
+RGBDust_icon.psd
+RGBDust_Monitoring.sln
