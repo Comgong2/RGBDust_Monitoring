@@ -70,7 +70,7 @@ namespace RGBDust_Monitoring
                 Port.Close();
             }
 
-            // 상태 변경
+            // Status
             IsOpen = Port.IsOpen;
         }
 

@@ -73,6 +73,8 @@
             // 
             // Port_Box
             // 
+            this.Port_Box.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Port_Box.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.Port_Box.FormattingEnabled = true;
             this.Port_Box.Location = new System.Drawing.Point(114, 24);
             this.Port_Box.Name = "Port_Box";
@@ -178,10 +180,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(289, 447);
             this.Controls.Add(this.Sensor_Monitor);
             this.Controls.Add(this.Serial_Box);
-            this.Enabled = false;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
